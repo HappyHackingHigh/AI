@@ -1,0 +1,39 @@
+
+
+Numpy & Pandas 
+1.1 Why Numpy & Pandas?
+1.2 Numpy 和 Pandas 安裝
+
+Numpy 
+2.1 Numpy 屬性
+2.2 Numpy 的創建 array
+2.3 Numpy 基礎運算1
+2.4 Numpy 基礎運算2
+2.5 Numpy 索引
+2.6 Numpy array 合併
+2.7 Numpy array 分割
+2.8 Numpy copy & deep copy
+
+Pandas 
+3.1 Pandas 基本介紹
+3.2 Pandas 選擇資料
+3.3 Pandas 設置值
+3.4 Pandas 處理丟失資料
+3.5 Pandas 導入匯出
+3.6 Pandas 合併 concat
+3.7 Pandas 合併 merge
+3.8 Pandas plot 出圖
+
+=========================================
+Data Analysis with Pandas and Python [Video]
+Boris Paskhaver
+Wednesday, October 18, 2017
+=========================================
+Python: Data Analytics and Visualization
+Phuong Vo.T.H et al.
+March 2017
+=========================================
+Pandas Cookbook
+Theodore Petrou
+October 2017
+=========================================
