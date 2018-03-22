@@ -1,14 +1,24 @@
+Reinforcement Learning強化學
+
+
 An Introduction to Reinforcement Learning
 https://www.youtube.com/watch?v=1iLMn53R3rM
 
-
-
-强化学习方法汇总 (Reinforcement Learning)
+===================================================================
+===================================================================
+強化學習方法匯總(Reinforcement Learning)
 https://www.youtube.com/watch?v=AINrxEjflaM
 
 https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
+===================================================================
+馬可夫決策過程 Markov Decision Processes(MDPs)
+Markov decision process
+https://en.wikipedia.org/wiki/Markov_decision_process
 
 
+===================================================================
+https://blog.techbridge.cc/2017/11/04/openai-gym-intro-and-q-learning/
+===================================================================
 RL Course by David Silver - Lecture 1: Introduction to Reinforcement Learning
 https://www.youtube.com/watch?v=2pWv7GOvuf0
 
