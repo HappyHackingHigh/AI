@@ -1,0 +1,119 @@
+
+TensorFlow是一個開源軟體庫，用於各種感知和語言理解任務的機器學習。
+
+目前被50個團隊用於研究和生產許多Google商業產品，如語音識別、Gmail、Google 相冊和搜索，其中許多產品曾使用過其前任軟體DistBelief。 
+
+
+首次發行日期： 2015 年 11 月 9 日
+編寫語言： Python， C++， CUDA
+
+維基百科
+https://zh.wikipedia.org/wiki/TensorFlow
+
+https://www.tensorflow.org/
+===========================================
+版本:
+
+Tensorflow 1.6.0
+
+
+===========================================
+API Documentation
+https://www.tensorflow.org/api_docs/
+TensorFlow has APIs available in several languages both for constructing and executing a TensorFlow graph. 
+The Python API is at present the most complete and the easiest to use, 
+but other language APIs may be easier to integrate into projects and may offer some performance advantages in graph execution.
+
+===========================================
+Tensorflow@Windows8測試環境
+https://www.tensorflow.org/install/install_windows
+
+[1]先安裝Anaconda
+
+[2]再安裝Tensorflow1.6
+
+Create a conda environment named tensorflow by invoking the following command:
+
+C:> conda create -n tensorflow pip python=3.5 
+
+Activate the conda environment by issuing the following command:
+
+C:> activate tensorflow
+
+(tensorflow)C:>  # Your prompt should change 
+
+Issue the appropriate command to install TensorFlow inside your conda environment. 
+To install the CPU-only version of TensorFlow, enter the following command:
+
+(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow 
+
+[3]驗證是否成功
+
+$ python
+
+-------------------------------------------
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> print(sess.run(hello))
+-------------------------------------------
+
+-------------------------------------------
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> sess.run(hello)
+'Hello, TensorFlow!'
+>>> a = tf.constant(10)
+>>> b = tf.constant(32)
+>>> sess.run(a + b)
+42
+>>> sess.close()
+-------------------------------------------
+
+===========================================
+基礎練習
+
+[1]基本觀念
+https://hackmd.io/s/HJxsUvOpg
+
+資料型態:Tensor
+以 Tensor 來表示所有資料，可看成擁有靜態資料類型，
+但有動態大小的多維陣列與列表，如 Boolean 或 String 轉成數值類型.
+
+計算模式:資料流圖(Data Flow Graphs)
+是一種有向圖的節點(Node)與邊(Edge)來描述計算過程。
+節點表示數學操作，亦表示資料 I/O 端點; 節點被稱為 op(operation)
+邊則表示節點之間的關係，用來傳遞操作之間互相使用的多維陣列(Tensors)，
+Tensor 是在圖中流動的資料表示。
+一旦節點相連的邊傳來資料流，
+這時節點就會被分配到運算裝置上異步(節點之間)或同步(節點之內)的執行。
+使用 tf.Graph 來表示計算任務.
+
+採用tensorflow::Session的上下文(Context)來執行圖.
+透過tf.Variable來維護狀態.
+透過 feed 與 fetch 來任意操作(Arbitrary operation)給予值或從中取得資料.
+
+[]從範例中學習TF_1
+https://hackmd.io/s/HJxsUvOpg
+----------------------------------------
+# coding=utf-8
+import tensorflow as tf
+
+a = tf.constant(1)
+b = tf.constant(2)
+c = tf.constant(3)
+d = tf.constant(4)
+add1 = tf.add(a, b)
+mul1 = tf.multiply(b, c)
+add2 = tf.add(c, d)
+output = tf.add(add1, mul1)
+
+with tf.Session() as sess:
+    print sess.run(output)
+---------------------------------------------
+
+https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/
+
+
+
