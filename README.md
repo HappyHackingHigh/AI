@@ -14,3 +14,5 @@ Numpy| Pandas |
 
 
 [5]Reforcement learning
+
+[6]GAN
