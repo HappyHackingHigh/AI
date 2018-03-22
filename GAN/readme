@@ -1,0 +1,22 @@
+#Generative Adversarial Networks (GANs)
+
+GANs have been defined as the most interesting idea in the last 10 years in ML (https:/ / www.
+quora. com/ What- are- some- recent- and- potentially- upcoming- breakthroughs- in- deeplearning)
+by Yann LeCun, one of the fathers of Deep Learning. 
+
+GANs are able to learn how to reproduce synthetic data which looks real. 
+For instance, computers can learn how to paint and create realistic images. 
+The idea was originally proposed by Ian Goodfellow who worked with the 
+University of Montreal, Google Brain, and recently with OpenAI 
+(https://openai.com/ ).
+
+
+#what is a GAN?
+
+StackGAN
+ StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks 
+ by Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas.
+
+https://arxiv.org/pdf/1612.03242v1.pdf
+https://www.youtube.com/watch?v=SuRyL5vhCIM
+https://github.com/hanzhanggit/StackGAN
