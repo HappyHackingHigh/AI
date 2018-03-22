@@ -11,11 +11,13 @@ TensorFlow是一個開源軟體庫，用於各種感知和語言理解任務的�
 https://zh.wikipedia.org/wiki/TensorFlow
 
 https://www.tensorflow.org/
+http://wiki.jikexueyuan.com/project/tensorflow-zh/
 ===========================================
 版本:
+2015-11-10
+谷歌發佈全新人工智慧系統TensorFlow並宣佈開源
 
 Tensorflow 1.6.0
-
 
 ===========================================
 API Documentation
@@ -70,7 +72,12 @@ $ python
 42
 >>> sess.close()
 -------------------------------------------
+Tensorflow 2017 Tutorials[tensorflow: 1.1.0]
+https://github.com/MorvanZhou/Tensorflow-Tutorial
+https://www.youtube.com/channel/UCdyjiB5H8Pu7aDTNVXTTpcg
 
+pyTorch Tutorials
+https://github.com/MorvanZhou/PyTorch-Tutorial
 ===========================================
 基礎練習
 
